@@ -1,7 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import { Input, Container, Table, Button } from 'semantic-ui-react'
-import 'semantic-ui-css/semantic.min.css';
 class SetCalculator extends React.Component {
 	constructor() {
 		super();
