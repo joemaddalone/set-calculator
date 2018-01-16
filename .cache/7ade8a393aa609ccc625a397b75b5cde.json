@@ -1,0 +1,1 @@
+{"dependencies":[{"name":"./_Uint8Array","loc":{"line":1,"column":25}}],"generated":{"js":"var e=require(\"./_Uint8Array\");function r(r){var n=new r.constructor(r.byteLength);return new e(n).set(new e(r)),n}module.exports=r;"},"hash":"2447e10fe9bec31e4897bca686ac2058"}

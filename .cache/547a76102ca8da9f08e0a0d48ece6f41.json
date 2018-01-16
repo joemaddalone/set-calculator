@@ -1,0 +1,1 @@
+{"dependencies":[{"name":"./_basePick","loc":{"line":1,"column":23}},{"name":"./_flatRest","loc":{"line":2,"column":23}}],"generated":{"js":"var e=require(\"./_basePick\"),r=require(\"./_flatRest\"),u=r(function(r,u){return null==r?{}:e(r,u)});module.exports=u;"},"hash":"99b24e13d61089b612da76570e1f63e4"}

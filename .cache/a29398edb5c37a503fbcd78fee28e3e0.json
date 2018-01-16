@@ -1,0 +1,1 @@
+{"dependencies":[{"name":"./Breadcrumb","loc":{"line":1,"column":21}}],"generated":{"js":"\"use strict\";Object.defineProperty(exports,\"__esModule\",{value:!0}),exports.default=void 0;var e=require(\"./Breadcrumb\"),r=t(e);function t(e){return e&&e.__esModule?e:{default:e}}exports.default=r.default;"},"hash":"9635d276cdf360ccebc74962e94a0296"}

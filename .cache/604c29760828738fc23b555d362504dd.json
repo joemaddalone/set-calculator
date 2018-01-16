@@ -1,0 +1,1 @@
+{"dependencies":[{"name":"./isSymbol","loc":{"line":1,"column":23}}],"generated":{"js":"var r=require(\"./isSymbol\"),e=1/0;function t(t){if(\"string\"==typeof t||r(t))return t;var i=t+\"\";return\"0\"==i&&1/t==-e?\"-0\":i}module.exports=t;"},"hash":"d22ed6eb472c5292a97dab203567ed76"}

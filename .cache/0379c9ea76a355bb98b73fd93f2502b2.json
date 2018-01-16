@@ -1,0 +1,1 @@
+{"dependencies":[{"name":"./_coreJsData","loc":{"line":1,"column":25}}],"generated":{"js":"var e=require(\"./_coreJsData\"),r=function(){var r=/[^.]+$/.exec(e&&e.keys&&e.keys.IE_PROTO||\"\");return r?\"Symbol(src)_1.\"+r:\"\"}();function n(e){return!!r&&r in e}module.exports=n;"},"hash":"b41ddb7837d71e2f0034f843a39e85a1"}

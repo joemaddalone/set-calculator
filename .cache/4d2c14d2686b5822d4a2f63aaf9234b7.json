@@ -1,0 +1,1 @@
+{"dependencies":[{"name":"./_Symbol","loc":{"line":1,"column":21}}],"generated":{"js":"var e=require(\"./_Symbol\"),o=e?e.prototype:void 0,r=o?o.valueOf:void 0;function t(e){return r?Object(r.call(e)):{}}module.exports=t;"},"hash":"dbfe8d8b5f6184824e47400b6edbf332"}

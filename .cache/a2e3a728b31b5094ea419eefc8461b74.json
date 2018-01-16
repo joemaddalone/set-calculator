@@ -1,0 +1,1 @@
+{"dependencies":[],"generated":{"js":"var r=/\\{(?:\\n\\/\\* \\[wrapped with .+\\] \\*\\/)?\\n?/;function n(n,e){var t=e.length;if(!t)return n;var a=t-1;return e[a]=(t>1?\"& \":\"\")+e[a],e=e.join(t>2?\", \":\" \"),n.replace(r,\"{\\n/* [wrapped with \"+e+\"] */\\n\")}module.exports=n;"},"hash":"355142f58cd9e6bb969e211d5925a236"}

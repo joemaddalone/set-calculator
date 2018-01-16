@@ -1,0 +1,1 @@
+{"dependencies":[{"name":"./_realNames","loc":{"line":1,"column":24}}],"generated":{"js":"var r=require(\"./_realNames\"),e=Object.prototype,n=e.hasOwnProperty;function a(e){for(var a=e.name+\"\",t=r[a],l=n.call(r,a)?t.length:0;l--;){var o=t[l],u=o.func;if(null==u||u==e)return o.name}return a}module.exports=a;"},"hash":"164395e5a179c88af17fd5ca6f665006"}

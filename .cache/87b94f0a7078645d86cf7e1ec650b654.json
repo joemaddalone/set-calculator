@@ -1,0 +1,1 @@
+{"dependencies":[{"name":"./toString","loc":{"line":1,"column":23}}],"generated":{"js":"var e=require(\"./toString\"),r=/[\\\\^$.*+?()[\\]{}|]/g,t=RegExp(r.source);function o(o){return(o=e(o))&&t.test(o)?o.replace(r,\"\\\\$&\"):o}module.exports=o;"},"hash":"8b4f778dd25749d4921de507efe5e2f6"}

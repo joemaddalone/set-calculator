@@ -1,0 +1,1 @@
+{"dependencies":[{"name":"./identity","loc":{"line":1,"column":23}},{"name":"./_metaMap","loc":{"line":2,"column":22}}],"generated":{"js":"var e=require(\"./identity\"),r=require(\"./_metaMap\"),t=r?function(e,t){return r.set(e,t),e}:e;module.exports=t;"},"hash":"d8eb90c632d59a74f551ba869fe6204d"}

@@ -1,0 +1,1 @@
+{"dependencies":[{"name":"./eq","loc":{"line":1,"column":17}}],"generated":{"js":"var r=require(\"./eq\");function e(e,n){for(var t=e.length;t--;)if(r(e[t][0],n))return t;return-1}module.exports=e;"},"hash":"85ae2ab605972b481f88b54c21363e73"}

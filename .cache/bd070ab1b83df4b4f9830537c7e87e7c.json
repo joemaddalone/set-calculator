@@ -1,0 +1,1 @@
+{"dependencies":[{"name":"./_cloneArrayBuffer","loc":{"line":1,"column":31}}],"generated":{"js":"var e=require(\"./_cloneArrayBuffer\");function r(r,f){var t=f?e(r.buffer):r.buffer;return new r.constructor(t,r.byteOffset,r.byteLength)}module.exports=r;"},"hash":"f8bf85784bc69d9605db63844c06ab0a"}

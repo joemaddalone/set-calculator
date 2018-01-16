@@ -1,0 +1,1 @@
+{"dependencies":[{"name":"./isObject","loc":{"line":1,"column":23}}],"generated":{"js":"var e=require(\"./isObject\");function r(r){return r==r&&!e(r)}module.exports=r;"},"hash":"78a0ac0e1d37befb0b0f477596969838"}

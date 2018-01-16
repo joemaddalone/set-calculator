@@ -1,0 +1,1 @@
+{"dependencies":[{"name":"./Container","loc":{"line":1,"column":21}}],"generated":{"js":"\"use strict\";Object.defineProperty(exports,\"__esModule\",{value:!0}),exports.default=void 0;var e=require(\"./Container\"),t=r(e);function r(e){return e&&e.__esModule?e:{default:e}}exports.default=t.default;"},"hash":"96192b6936e2fe58d02c022d53cf7aa5"}

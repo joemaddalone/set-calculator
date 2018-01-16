@@ -1,0 +1,1 @@
+{"dependencies":[],"generated":{"js":"\"use strict\";Object.defineProperty(exports,\"__esModule\",{value:!0}),exports.default=function(e,t){return\"number\"==typeof e||\"string\"==typeof e?e:e[t]};"},"hash":"3819d5171f82c280ff1b6f665fda86b3"}

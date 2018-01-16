@@ -1,0 +1,1 @@
+{"dependencies":[],"generated":{"js":"var x=/[^\\x00-\\x2f\\x3a-\\x40\\x5b-\\x60\\x7b-\\x7f]+/g;function r(r){return r.match(x)||[]}module.exports=r;"},"hash":"29d5e5e46bc79e3ea9bbe06dfb23b081"}

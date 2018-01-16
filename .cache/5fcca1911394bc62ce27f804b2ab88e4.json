@@ -1,0 +1,1 @@
+{"dependencies":[{"name":"./_isStrictComparable","loc":{"line":1,"column":33}},{"name":"./keys","loc":{"line":2,"column":19}}],"generated":{"js":"var r=require(\"./_isStrictComparable\"),e=require(\"./keys\");function t(t){for(var a=e(t),i=a.length;i--;){var o=a[i],u=t[o];a[i]=[o,u,r(u)]}return a}module.exports=t;"},"hash":"763e7e3f8d0537c02a15328b87149b39"}

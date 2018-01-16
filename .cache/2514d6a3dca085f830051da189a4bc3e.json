@@ -1,0 +1,1 @@
+{"dependencies":[{"name":"./convert","loc":{"line":1,"column":22}},{"name":"../memoize","loc":{"line":2,"column":38}},{"name":"./placeholder","loc":{"line":4,"column":27}}],"generated":{"js":"var e=require(\"./convert\"),r=e(\"memoize\",require(\"../memoize\"));r.placeholder=require(\"./placeholder\"),module.exports=r;"},"hash":"3dbadfb39c6521b8db862ad0f0a5400e"}

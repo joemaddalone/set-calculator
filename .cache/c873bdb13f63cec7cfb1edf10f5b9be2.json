@@ -1,0 +1,1 @@
+{"dependencies":[{"name":"./_baseGet","loc":{"line":1,"column":22}}],"generated":{"js":"var e=require(\"./_baseGet\");function r(r){return function(n){return e(n,r)}}module.exports=r;"},"hash":"637b0c09d385740724d17adf090298e6"}

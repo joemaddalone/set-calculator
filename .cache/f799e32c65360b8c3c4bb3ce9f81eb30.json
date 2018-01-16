@@ -1,0 +1,1 @@
+{"dependencies":[{"name":"./_createCompounder","loc":{"line":1,"column":31}},{"name":"./upperFirst","loc":{"line":2,"column":25}}],"generated":{"js":"var r=require(\"./_createCompounder\"),e=require(\"./upperFirst\"),u=r(function(r,u,o){return r+(o?\" \":\"\")+e(u)});module.exports=u;"},"hash":"dc1d1ad04b3e137145672662d6393074"}

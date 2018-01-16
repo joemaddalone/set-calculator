@@ -1,0 +1,1 @@
+{"dependencies":[{"name":"./_baseGetTag","loc":{"line":1,"column":25}},{"name":"./isObjectLike","loc":{"line":2,"column":27}}],"generated":{"js":"var e=require(\"./_baseGetTag\"),r=require(\"./isObjectLike\"),t=\"[object Arguments]\";function u(u){return r(u)&&e(u)==t}module.exports=u;"},"hash":"97a5b9b7943318a49705c53a883bc41c"}

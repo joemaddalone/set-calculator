@@ -1,0 +1,1 @@
+{"dependencies":[{"name":"./isArrayLike","loc":{"line":1,"column":26}},{"name":"./isObjectLike","loc":{"line":2,"column":27}}],"generated":{"js":"var e=require(\"./isArrayLike\"),r=require(\"./isObjectLike\");function i(i){return r(i)&&e(i)}module.exports=i;"},"hash":"6373772c840bf2ff1c4bf932707bb900"}

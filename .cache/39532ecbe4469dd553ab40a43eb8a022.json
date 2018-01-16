@@ -1,0 +1,1 @@
+{"dependencies":[{"name":"./_baseClone","loc":{"line":1,"column":24}},{"name":"./_baseIteratee","loc":{"line":2,"column":27}}],"generated":{"js":"var e=require(\"./_baseClone\"),r=require(\"./_baseIteratee\"),t=1;function n(n){return r(\"function\"==typeof n?n:e(n,t))}module.exports=n;"},"hash":"0644571578844b18a9828fed8d7255e6"}

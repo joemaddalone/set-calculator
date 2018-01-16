@@ -1,0 +1,1 @@
+{"dependencies":[{"name":"./_baseFlatten","loc":{"line":1,"column":26}}],"generated":{"js":"var e=require(\"./_baseFlatten\");function n(n){return(null==n?0:n.length)?e(n,1):[]}module.exports=n;"},"hash":"426f9ae68f590b1dcfa8d43fabbf58b1"}

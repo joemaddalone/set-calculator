@@ -1,0 +1,1 @@
+{"dependencies":[],"generated":{"js":"var r=Math.ceil,a=Math.max;function t(t,e,o,n){for(var u=-1,c=a(r((e-t)/(o||1)),0),f=Array(c);c--;)f[n?c:++u]=t,t+=o;return f}module.exports=t;"},"hash":"5710220a38e6bcb0f7f164912a0d2515"}

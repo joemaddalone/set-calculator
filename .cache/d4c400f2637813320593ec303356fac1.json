@@ -1,0 +1,1 @@
+{"dependencies":[{"name":"./_copyObject","loc":{"line":1,"column":25}},{"name":"./_getSymbols","loc":{"line":2,"column":25}}],"generated":{"js":"var e=require(\"./_copyObject\"),r=require(\"./_getSymbols\");function o(o,t){return e(o,r(o),t)}module.exports=o;"},"hash":"d973bced9913a47182095c451c11e487"}

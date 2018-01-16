@@ -1,0 +1,1 @@
+{"dependencies":[{"name":"core-js/library/fn/object/get-own-property-descriptor","loc":{"line":1,"column":38}}],"generated":{"js":"module.exports={default:require(\"core-js/library/fn/object/get-own-property-descriptor\"),__esModule:!0};"},"hash":"e63fdd9c137b7abea4d6143596ec1eac"}

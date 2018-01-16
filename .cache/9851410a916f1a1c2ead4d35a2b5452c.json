@@ -1,0 +1,1 @@
+{"dependencies":[],"generated":{"js":"var t=Math.max,a=Math.min;function n(n,r,e){return n>=a(r,e)&&n<t(r,e)}module.exports=n;"},"hash":"f13b09d089c046a2f530a94b7abe22d7"}

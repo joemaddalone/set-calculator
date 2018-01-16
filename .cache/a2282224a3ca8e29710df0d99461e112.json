@@ -1,0 +1,1 @@
+{"dependencies":[{"name":"./_copyObject","loc":{"line":1,"column":25}},{"name":"./keys","loc":{"line":2,"column":19}}],"generated":{"js":"var e=require(\"./_copyObject\"),r=require(\"./keys\");function u(u,o){return u&&e(o,r(o),u)}module.exports=u;"},"hash":"f9973986278cb6778a5ec14348218973"}

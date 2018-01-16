@@ -1,0 +1,1 @@
+{"dependencies":[{"name":"./_createWrap","loc":{"line":1,"column":25}},{"name":"./_flatRest","loc":{"line":2,"column":23}}],"generated":{"js":"var e=require(\"./_createWrap\"),r=require(\"./_flatRest\"),i=256,o=r(function(r,o){return e(r,i,void 0,void 0,void 0,o)});module.exports=o;"},"hash":"50dd26428b229c872dbdb70a4942c18a"}

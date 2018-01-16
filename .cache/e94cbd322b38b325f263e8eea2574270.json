@@ -1,0 +1,1 @@
+{"dependencies":[{"name":"./_createWrap","loc":{"line":1,"column":25}}],"generated":{"js":"var e=require(\"./_createWrap\"),o=8;function r(d,i,v){var a=e(d,o,void 0,void 0,void 0,void 0,void 0,i=v?void 0:i);return a.placeholder=r.placeholder,a}r.placeholder={},module.exports=r;"},"hash":"da4d93bf4ddb63a3421ab01a88273c48"}

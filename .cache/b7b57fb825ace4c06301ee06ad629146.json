@@ -1,0 +1,1 @@
+{"dependencies":[{"name":"./_baseSetData","loc":{"line":1,"column":26}},{"name":"./_shortOut","loc":{"line":2,"column":23}}],"generated":{"js":"var e=require(\"./_baseSetData\"),r=require(\"./_shortOut\"),t=r(e);module.exports=t;"},"hash":"3dc941ea41a7da96e17816f1e30bc1d3"}

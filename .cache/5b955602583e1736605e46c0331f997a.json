@@ -1,0 +1,1 @@
+{"dependencies":[{"name":"./_createCaseFirst","loc":{"line":1,"column":30}}],"generated":{"js":"var e=require(\"./_createCaseFirst\"),r=e(\"toUpperCase\");module.exports=r;"},"hash":"acca06c3a15c796d0538e34085e1954e"}

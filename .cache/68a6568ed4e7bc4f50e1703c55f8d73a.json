@@ -1,0 +1,1 @@
+{"dependencies":[{"name":"./isArrayLike","loc":{"line":1,"column":26}}],"generated":{"js":"var r=require(\"./isArrayLike\");function e(e,n){return function(t,u){if(null==t)return t;if(!r(t))return e(t,u);for(var i=t.length,f=n?i:-1,o=Object(t);(n?f--:++f<i)&&!1!==u(o[f],f,o););return t}}module.exports=e;"},"hash":"bb2d79ae2444d09344fe3623ffd5a316"}

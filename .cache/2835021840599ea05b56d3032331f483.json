@@ -1,0 +1,1 @@
+{"dependencies":[{"name":"./_baseGet","loc":{"line":1,"column":22}},{"name":"./_baseSlice","loc":{"line":2,"column":24}}],"generated":{"js":"var e=require(\"./_baseGet\"),r=require(\"./_baseSlice\");function t(t,u){return u.length<2?t:e(t,r(u,0,-1))}module.exports=t;"},"hash":"0fc0d112932b85d819be8e5b366bf279"}

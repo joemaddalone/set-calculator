@@ -1,0 +1,1 @@
+{"dependencies":[{"name":"./_arrayPush","loc":{"line":1,"column":24}},{"name":"./isArray","loc":{"line":2,"column":22}}],"generated":{"js":"var r=require(\"./_arrayPush\"),e=require(\"./isArray\");function u(u,a,i){var n=a(u);return e(u)?n:r(n,i(u))}module.exports=u;"},"hash":"c1edd18f44fc21dbea24434828acfd5b"}

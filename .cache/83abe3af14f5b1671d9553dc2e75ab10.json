@@ -1,0 +1,1 @@
+{"dependencies":[{"name":"./_baseSum","loc":{"line":1,"column":22}},{"name":"./identity","loc":{"line":2,"column":23}}],"generated":{"js":"var e=require(\"./_baseSum\"),r=require(\"./identity\");function t(t){return t&&t.length?e(t,r):0}module.exports=t;"},"hash":"07b578fdfacb0c5e06070e7431559464"}

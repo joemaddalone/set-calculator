@@ -1,0 +1,1 @@
+{"dependencies":[{"name":"./convert","loc":{"line":1,"column":22}},{"name":"../includes","loc":{"line":2,"column":39}},{"name":"./placeholder","loc":{"line":4,"column":27}}],"generated":{"js":"var e=require(\"./convert\"),r=e(\"includes\",require(\"../includes\"));r.placeholder=require(\"./placeholder\"),module.exports=r;"},"hash":"c84618ec9d9baeb04a2a56b86a985cbb"}

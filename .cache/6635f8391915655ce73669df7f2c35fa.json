@@ -1,0 +1,1 @@
+{"dependencies":[{"name":"./identity","loc":{"line":1,"column":23}}],"generated":{"js":"var e=require(\"./identity\");function t(t){return\"function\"==typeof t?t:e}module.exports=t;"},"hash":"51aeda41203213a3b5ff98f457b355a3"}

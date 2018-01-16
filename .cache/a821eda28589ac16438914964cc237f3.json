@@ -1,0 +1,1 @@
+{"dependencies":[{"name":"./toFinite","loc":{"line":1,"column":23}}],"generated":{"js":"var r=require(\"./toFinite\");function e(e){var t=r(e),i=t%1;return t==t?i?t-i:t:0}module.exports=e;"},"hash":"6a68d7a6664e58e11e16070125af00a1"}

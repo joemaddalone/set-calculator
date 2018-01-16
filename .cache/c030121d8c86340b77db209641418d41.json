@@ -1,0 +1,1 @@
+{"dependencies":[{"name":"./memoize","loc":{"line":1,"column":22}}],"generated":{"js":"var e=require(\"./memoize\"),r=500;function n(n){var u=e(n,function(e){return c.size===r&&c.clear(),e}),c=u.cache;return u}module.exports=n;"},"hash":"dd6b98e520479e271ad4b64e7d489578"}

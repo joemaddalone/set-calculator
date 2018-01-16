@@ -1,0 +1,1 @@
+{"dependencies":[{"name":"./_overArg","loc":{"line":1,"column":22}}],"generated":{"js":"var e=require(\"./_overArg\"),r=e(Object.getPrototypeOf,Object);module.exports=r;"},"hash":"d0e7115f5250c8f4add5f86dfdd9f2c2"}
