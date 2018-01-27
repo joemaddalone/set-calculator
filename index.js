@@ -21,7 +21,7 @@ class SetCalculator extends React.Component {
 				break;
 			case "3":
 				percentages = [0.4, 0.5, 0.6, 0.7, 0.8, 0.9]
-				sets = [5, 5, 3, 3, 3, "5+"]
+				sets = [5, 5, 3, 3, 3, "3+"]
 				break;
 			case "1":
 				percentages = [0.4, 0.5, 0.6, 0.85, 0.925, 1]
