@@ -1,6 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import { Input, Container, Table, Button } from "semantic-ui-react";
+import { sets } from "./calc";
 class SetCalculator extends React.Component {
   constructor() {
     super();
@@ -11,74 +12,12 @@ class SetCalculator extends React.Component {
     this.weightInput = null;
     this.weekInput = null;
   }
-  getCalcs(week) {
-    let percentages = [];
-    let sets = [];
-    switch (week) {
-      case "5":
-        percentages = [0.4, 0.5, 0.6, 0.65, 0.75, 0.85, 0.65];
-        sets = [5, 5, 3, 5, 5, "5+", 5];
-        break;
-      case "3":
-        percentages = [0.4, 0.5, 0.6, 0.7, 0.8, 0.9, 0.7];
-        sets = [5, 5, 3, 3, 3, "3+", 5];
-        break;
-      case "1":
-        percentages = [0.4, 0.5, 0.6, 0.75, 0.85, 0.95, 0.75];
-        sets = [5, 5, 3, 5, 3, "1+", 5];
-        break;
-      case "D":
-        percentages = [0.4, 0.5, 0.6];
-        sets = [5, 5, 5];
-        break;
-      default:
-        break;
-    }
-    return { percentages, sets };
-  }
-  round25(val) {
-    return Math.ceil(val / 2.5) * 2.5;
-  }
   onChange(e) {
     this.setState({
-      weight: this.round25(this.weightInput.inputRef.value * 0.9),
+      weight: this.weightInput.inputRef.value,
     });
   }
-  calcPlates(totalWeight) {
-    const plates = [
-      { weight: 45, count: 8 },
-      { weight: 35, count: 4 },
-      { weight: 25, count: 4 },
-      { weight: 10, count: 4 },
-      { weight: 5, count: 4 },
-      { weight: 2.5, count: 4 },
-      { weight: 1.25, count: 4 },
-      { weight: 0.5, count: 8 },
-    ];
-    const bar = 45;
-    if (totalWeight <= bar) {
-      return ["no plates"];
-    }
-    let oneSide = (totalWeight - bar) / 2;
-    const result = [];
-    for (let i = 0; i < plates.length; i++) {
-      const plate = plates[i];
-      if (oneSide < plate.weight) {
-        continue;
-      } else {
-        let count = 0;
-        let available = plate.count;
-        while (count < Math.floor(oneSide / plate.weight)) {
-          count++;
-          result.push(plate.weight);
-        }
-        oneSide = oneSide % plate.weight;
-      }
-    }
-    return `[${result.join(", ")}]`;
-  }
   render() {
-    const { percentages, sets } = this.getCalcs(this.state.week);
     return (
       <Container>
         <Input
@@ -124,16 +63,17 @@ class SetCalculator extends React.Component {
               </Table.Header>
 
               <Table.Body>
-                {percentages.map((p, i) => {
-                  const w = this.round25(this.state.weight * p);
-                  return (
-                    <Table.Row key={i}>
-                      <Table.Cell>{w}</Table.Cell>
-                      <Table.Cell>{sets[i]}</Table.Cell>
-                      <Table.Cell>{this.calcPlates(w)}</Table.Cell>
-                    </Table.Row>
-                  );
-                })}
+                {sets(this.state.weight, this.state.week).map(
+                  ({ weight, reps, plates }, i) => {
+                    return (
+                      <Table.Row key={i}>
+                        <Table.Cell>{weight}</Table.Cell>
+                        <Table.Cell>{reps}</Table.Cell>
+                        <Table.Cell>[{plates.join(", ")}]</Table.Cell>
+                      </Table.Row>
+                    );
+                  }
+                )}
               </Table.Body>
             </Table>
           </div>
