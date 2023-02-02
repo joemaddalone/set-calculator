@@ -14,18 +14,11 @@ const SetCalculator = () => {
     <Container>
       <Input onChange={onChange} ref={weightInput} placeholder="training max" />
       <Button.Group>
-        <Button active={week === "5"} onClick={() => setWeek("5")}>
-          Week 1
-        </Button>
-        <Button active={week === "3"} onClick={() => setWeek("3")}>
-          Week 2
-        </Button>
-        <Button active={week === "1"} onClick={() => setWeek("1")}>
-          Week 3
-        </Button>
-        <Button active={week === "D"} onClick={() => setWeek("D")}>
-          Deload
-        </Button>
+        {["5", "3", "1", "D"].map((w, i) => (
+          <Button key={w} active={week === w} onClick={() => setWeek(w)}>
+            {w === 'D' ? 'Deload' : `Week ${i + 1}`}
+          </Button>
+        ))}
       </Button.Group>
       {weight ? (
         <div>
